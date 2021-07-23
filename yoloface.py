@@ -66,9 +66,6 @@ net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
 
 
 def _main():
-    wind_name = 'face detection using YOLOv3'
-    cv2.namedWindow(wind_name, cv2.WINDOW_NORMAL)
-
     output_file = ''
     labels = []
     idx = 0
@@ -128,7 +125,6 @@ def _main():
 
 
     cap.release()
-    cv2.destroyAllWindows()
 
     with open(args.output_dir + '/labels.pickle', 'wb') as f:
         pickle.dump(labels, f, pickle.HIGHEST_PROTOCOL)
