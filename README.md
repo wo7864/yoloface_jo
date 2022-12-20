@@ -1,11 +1,10 @@
 # YOLOFace_jo
+This repository is used by taking parts of it and changing [here](https://github.com/sthanhng/yoloface/tree/2b954f318d9bd9136836bed0a71109ab56681790).
 
-이 저장소는 https://github.com/sthanhng/yoloface/tree/2b954f318d9bd9136836bed0a71109ab56681790의 일부를 가져와 변경하여 사용합니다.
-
-## 변경점
-- Video Face 객체 검출만 가능(Image x)
-- 매 Frame마다 검출한 객체 이미지를 저장
-- Frame에서 검출한 객체의 Bounding Box를 저장
+## Change
+- Video Face object detection only (Image x)
+- Save the object image detected every frame
+- Save the bounding box of the object detected in the frame
 
 
 
@@ -18,7 +17,7 @@ The YOLOv3 (You Only Look Once) is a state-of-the-art, real-time object detectio
 
 ## YOLOv3's architecture
 
-![Imgur](assets/yolo-architecture.png)
+![YOLOv3 Architecture](https://user-images.githubusercontent.com/33424923/208663463-11c427f8-5ebc-426a-ad0b-37aa37704afd.png)
 
 Credit: [Ayoosh Kathuria](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b)
 
